@@ -37,6 +37,10 @@ button{
     
 }
 
+button, span, input[type="text"]::placeholder{
+    font-family: inherit;
+}
+
 ul{
     list-style: none;/*بولت پوینت غیر فعال شود*/
 }

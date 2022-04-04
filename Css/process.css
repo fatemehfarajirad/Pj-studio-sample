@@ -61,5 +61,8 @@ i.box--testing{
     -webkit-box-shadow: 3rem 2.5rem 3rem 2rem rgba(241,242,246);
 }
 .process__active:hover{
-    transform: translateY(-2rem);
+    transform: translateX(-2rem);
+}
+.process__item--box:hover{
+    transform: translateX(-2rem);
 }

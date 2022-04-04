@@ -4,8 +4,10 @@
 .Signup__wrapper{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    padding-bottom: 5rem;
+    padding-top: 10rem;
 }
 .Signup__rightitem img{
     height: 30rem;

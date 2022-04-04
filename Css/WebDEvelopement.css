@@ -1,55 +1,57 @@
-#MobileApp{
-    min-height: 50vh;
+#WebDevelopment{
+    min-height: 20vh;
 }
-.MobileApp__Wrapper{
+.WebDevelopment__Wrapper{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: inherit;
-    background-color:#f1f2f6;
+    background-color:#ffcccc40;
+    position: relative;
 }
-.MobileApp__left--item{
+.WebDevelopment__right--item{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items:flex-start;
 }
-.MobileApp__left--item img{
-    width:50rem;
+.WebDevelopment__right--item img{
+    width:19rem;
+    position: absolute;
 }
-.MobileApp__right--item{
+.WebDevelopment__left--item{
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items:flex-start;
-    background-color: var(--light-color);
+    background-color: #ffffff;
     padding: 2rem;
 }
-.MobileApp__right--topitem{
+.WebDevelopment__left--topitem{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items:flex-start;
 }
-.MobileApp__right--item h2{
+.WebDevelopmenpt__left--item h2{
     font-size: 2rem;
     font-weight: 700;
     color: var(--dark-color);
     margin-bottom: 1rem;
 }
-.MobileApp__right--item p{
+.WebDevelopment__left--item p{
     font-size: 1.5rem;
     opacity: 0.8;
     color: var(--secondary-color);
     padding-bottom: 1rem;
 }
-.MobileApp__right--bottomitem{
+.WebDevelopment__left--bottomitem{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items:flex-start;
 }
-.MobileApp__right--bottomitem__leftbox{
+.WebDevelopment__left--bottomitem__rightbox{
     
     display: flex;
     flex-direction: column;
@@ -58,20 +60,20 @@
     border-radius: 1.5rem;
     transition: all .3s ease-in-out;
 }
-.MobileApp__right--bottomitem__leftbox i {
+.WebDevelopment__left--bottomitem__rightbox i {
     padding: 1.5rem;
     border-radius: 1rem;
     margin-bottom: 2rem;
     color: var(--light-color);
 }
 
-.MobileApp__right--bottomitem__leftbox h3 {
+.WebDevelopment__left--bottomitem__rightbox h3 {
     font-size: 1.5rem;
     font-weight: 400;
     color: var(--dark-color);
     margin-bottom: 2rem;
 }
-.MobileApp__right--bottomitem__leftbox p {
+.WebDevelopment__left--bottomitem__rightbox p {
     font-size: 1rem;
     opacity: 0.8;
     color: var(--secondary-color);
@@ -83,7 +85,7 @@ i.box--UI{
 i.box--IOS{
     background-color: #48dbfb;
 }
-.MobileApp__right--bottomitem__rightbox{
+.WebDevelopment__left--bottomitem__leftbox{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -91,22 +93,23 @@ i.box--IOS{
     border-radius: 1.5rem;
     transition: all .3s ease-in-out;
 }
-.MobileApp__right--bottomitem__rightbox i {
+.WebDevelopment__left--bottomitem__leftbox i {
     padding: 1.5rem;
     border-radius: 1rem;
     margin-bottom: 2rem;
     color: var(--light-color);
 }
 
-.MobileApp__right--bottomitem__rightbox h3 {
+.WebDevelopment__left--bottomitem__leftbox h3 {
     font-size: 1.5rem;
     font-weight: 400;
     color: var(--dark-color);
     margin-bottom: 2rem;
 }
-.MobileApp__right--bottomitem__rightbox p {
+.WebDevelopment__left--bottomitem__leftbox p {
     font-size: 1rem;
     opacity: 0.8;
     color: var(--secondary-color);
     padding-bottom: 1rem;
 }
+

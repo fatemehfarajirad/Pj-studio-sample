@@ -1,55 +1,58 @@
-#WebDevelopment{
-    min-height: 30vh;
+#MobileApp{
+    min-height: 19vh;
 }
-.WebDevelopment__Wrapper{
+.MobileApp__Wrapper{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: inherit;
-    background-color:#ffcccc40;
+    background-color:#f1f2f6;
+    position: relative;
+    
 }
-.WebDevelopment__right--item{
+.MobileApp__left--item{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items:flex-start;
 }
-.WebDevelopment__right--item img{
-    width:50rem;
+.MobileApp__left--item img{
+    width:22rem;
+    position: absolute;
 }
-.WebDevelopment__left--item{
+.MobileApp__right--item{
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:flex-start;
-    background-color: var(--light-color);
+    justify-content:space-between;
+    /*align-items:flex-start;*/
+    background-color: #ffffff;
     padding: 2rem;
 }
-.WebDevelopment__left--topitem{
+.MobileApp__right--topitem{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items:flex-start;
 }
-.WebDevelopmenpt__left--item h2{
+.MobileApp__right--item h2{
     font-size: 2rem;
     font-weight: 700;
     color: var(--dark-color);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
-.WebDevelopment__left--item p{
+.MobileApp__right--item p{
     font-size: 1.5rem;
     opacity: 0.8;
     color: var(--secondary-color);
-    padding-bottom: 1rem;
+    padding-bottom: 4rem;
 }
-.WebDevelopment__left--bottomitem{
+.MobileApp__right--bottomitem{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items:flex-start;
 }
-.WebDevelopment__left--bottomitem__rightbox{
+.MobileApp__right--bottomitem__leftbox{
     
     display: flex;
     flex-direction: column;
@@ -58,20 +61,20 @@
     border-radius: 1.5rem;
     transition: all .3s ease-in-out;
 }
-.WebDevelopment__left--bottomitem__rightbox i {
+.MobileApp__right--bottomitem__leftbox i {
     padding: 1.5rem;
     border-radius: 1rem;
     margin-bottom: 2rem;
     color: var(--light-color);
 }
 
-.WebDevelopment__left--bottomitem__rightbox h3 {
+.MobileApp__right--bottomitem__leftbox h3 {
     font-size: 1.5rem;
     font-weight: 400;
     color: var(--dark-color);
     margin-bottom: 2rem;
 }
-.WebDevelopment__left--bottomitem__rightbox p {
+.MobileApp__right--bottomitem__leftbox p {
     font-size: 1rem;
     opacity: 0.8;
     color: var(--secondary-color);
@@ -83,7 +86,7 @@ i.box--UI{
 i.box--IOS{
     background-color: #48dbfb;
 }
-.WebDevelopment__left--bottomitem__leftbox{
+.MobileApp__right--bottomitem__rightbox{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -91,23 +94,22 @@ i.box--IOS{
     border-radius: 1.5rem;
     transition: all .3s ease-in-out;
 }
-.WebDevelopment__left--bottomitem__leftbox i {
+.MobileApp__right--bottomitem__rightbox i {
     padding: 1.5rem;
     border-radius: 1rem;
     margin-bottom: 2rem;
     color: var(--light-color);
 }
 
-.WebDevelopment__left--bottomitem__leftbox h3 {
+.MobileApp__right--bottomitem__rightbox h3 {
     font-size: 1.5rem;
     font-weight: 400;
     color: var(--dark-color);
     margin-bottom: 2rem;
 }
-.WebDevelopment__left--bottomitem__leftbox p {
+.MobileApp__right--bottomitem__rightbox p {
     font-size: 1rem;
     opacity: 0.8;
     color: var(--secondary-color);
     padding-bottom: 1rem;
 }
-
